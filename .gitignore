@@ -1,0 +1,36 @@
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+#######################
+*.un~
+
+# SASS / CSS #
+##############
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+*.scssc
+config.rb
+*.map
+
+# Composer #
+############
+composer.lock
+
+# Gulp #
+########
+package-lock.json
+
+# NPM #
+#######
+node_modules
+
+# Development & Misc #
+######################
+*.bak
