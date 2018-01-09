@@ -1,0 +1,40 @@
+{
+  "name": "jq.modallink",
+  "description": "A simple jQuery plugin to display any external links into a modal popup via iframe.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/dmhendricks/jquery-modallink/",
+  "main": [
+    "dist/jquery.modalLink.min.js",
+    "dist/jquery.modalLink.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "demo",
+    "src",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "keywords": [
+    "jquery",
+    "modal",
+    "iframe"
+  ],
+  "authors": [
+    {
+      "name": "BrightSpark",
+      "homepage": "https://www.brightspark.ee/"
+    },
+    {
+      "name": "Daniel Hendricks",
+      "homepage": "https://www.danhendricks.com/"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmhendricks/jquery-modallink.git"
+  }
+}

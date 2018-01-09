@@ -1,0 +1,10 @@
+.sparkling-modal-overlay{background:rgba(0,0,0,0.3)}
+.sparkling-modal-frame{background:#fff;border:0 solid #000;box-shadow:rgba(0,0,0,0.2) 0 0 10px}
+.sparkling-modal-frame .sparkling-modal-title{background:#f5f3ef;position:relative}
+.sparkling-modal-frame .sparkling-modal-title span{font-size:20px;padding:20px;float:left;line-height:20px}
+.sparkling-modal-frame .sparkling-modal-title .sparkling-modal-close{cursor:pointer;height:100%;width:75px;position:absolute;right:0;transition:background .2s;-webkit-transition:background .2s;-moz-transition:background .2s;-ms-transition:background .2s;-o-transition:background .2s}
+.sparkling-modal-frame .sparkling-modal-title .sparkling-modal-close:hover{background:#e0ddd6}
+.sparkling-modal-frame .sparkling-modal-title .sparkling-modal-close .i-close{width:100%;height:100%;position:relative;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+.sparkling-modal-frame .sparkling-modal-title .sparkling-modal-close .i-close .i-close-h{position:relative;height:1px;width:19px;background:#777;top:50%;left:50%;margin-left:-9px}
+.sparkling-modal-frame .sparkling-modal-title .sparkling-modal-close .i-close .i-close-v{position:relative;height:19px;width:1px;background:#777;top:50%;margin-top:-10px;left:50%}
+.sparkling-modal-frame .sparkling-modal-content{padding:20px}
