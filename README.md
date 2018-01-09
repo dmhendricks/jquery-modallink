@@ -9,7 +9,7 @@
 
 A simple jQuery plugin to display any external links into a modal popup via iframe. Original code by [BrightSpark](https://github.com/brightspark-est).
 
-**Demo:** [jQuery modalLink Demos](https://www.jqueryscript.net/demo/Simple-iFrame-Modal-Plugin-With-jQuery-modallink/)
+[Demo](https://www.jqueryscript.net/demo/Simple-iFrame-Modal-Plugin-With-jQuery-modallink/) | [Original Source](https://www.jqueryscript.net/lightbox/Simple-iFrame-Modal-Plugin-With-jQuery-modallink.html)
 
 ### Bower Installation
 
@@ -19,7 +19,71 @@ bower install jq.modallink --save
 
 ## Usage
 
-TODO
+#### Link to Library
+
+```
+<link rel="stylesheet" href="jquery.modalLink.min.css">
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="jquery.modalLink.min.js"></script>
+```
+
+#### Create Modal Toggle Link
+
+```
+<a href="iframe.html" class="modal-link">Open</a>
+```
+
+#### Initialize Modal Link
+
+```
+$(".modal-link").modalLink();  
+```
+
+#### External Link Example
+
+```
+<button class="btn-click-me">click me</button>
+
+$(".btn-click-me").click(function () {
+  $.modalLink.open("iframe.html", {
+    // options here
+  });  
+});
+```
+
+#### Plugin Options
+
+```
+$(".modal-link").modalLink({
+  height: 600,
+  width: 900,
+  showTitle: true,
+  showClose: true,
+  overlayOpacity: 0.6,
+  method: "GET",
+  disable<a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a>: true,
+  onHideScroll: function () { },
+  onShowScroll: function () { }
+});   
+```
+
+#### Actions
+
+```
+// close the modal
+$.modalLink("close")
+
+// open the modal
+$.modalLink("open")
+```
+
+#### Events
+
+```
+$(".modal-link").on("modallink.close", function() {
+  // do something on close
+});
+```
 
 ## Change Log
 
