@@ -22,7 +22,7 @@ bower install jq.modallink --save
 #### Link to Library
 
 ```
-<link rel="stylesheet" href="jquery.modalLink.min.css">
+<link rel="stylesheet" href="jquery.modalLink.min.css" />
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="jquery.modalLink.min.js"></script>
 ```
@@ -60,7 +60,7 @@ $(".modal-link").modalLink({
   showTitle: true,
   showClose: true,
   overlayOpacity: 0.6,
-  method: "GET",
+  method: "GET", // GET, POST
   disable<a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a>: true,
   onHideScroll: function () { },
   onShowScroll: function () { }
